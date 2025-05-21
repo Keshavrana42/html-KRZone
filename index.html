@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KRZone - Your Website Hub with KRzoneAi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>KRZone</h1>
+    <p>Your Website Hub — Powered by <strong>KRzoneAi</strong></p>
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Search your favorite websites..." />
+  </div>
+
+  <div class="big-boxes-container">
+    <div class="big-box" id="websitesBox">
+      <h2>Your Favorite Sites, All in One Place</h2>
+      <div class="link-list"></div>
+    </div>
+
+    <div class="big-box small" id="infoBox">
+      <h2>Why KRZone?</h2>
+      <p>KRZone is a sleek and smart web hub that lets users quickly access their favorite websites like Amazon, Flipkart, and Myntra, all in one place. Featuring a dynamic search bar and an advanced AI-powered chatbot with voice input and text-to-speech capabilities, KRZone offers a seamless, interactive experience where users can ask questions naturally, without needing specific keywords. Its responsive dark-themed design ensures a smooth experience across devices, making it the perfect all-in-one companion for browsing and discovering top sites effortlessly.</p>
+      <p>Need help? Chat with <strong>KRzoneAi</strong> below!</p>
+    </div>
+  </div>
+
+  <!-- Chatbot -->
+  <div id="chatbot">
+    <header>KRzoneAi 🤖</header>
+    <div class="messages" id="chatMessages">
+      <div class="message">Hi! I'm KRzoneAi. Ask anything about this site.</div>
+    </div>
+    <input type="text" id="chatInput" placeholder="Type your message..." autocomplete="off" />
+  </div>
+
+  <footer>
+    <p>© 2025 Premium KRZone. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
